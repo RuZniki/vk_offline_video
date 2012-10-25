@@ -1,0 +1,19 @@
+{
+   "name": "VK video offline",
+   "version": "1.0.2.2",
+   "manifest_version": 2,
+   
+   "description": "__MSG_extDescr__",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "default_locale": "en",
+   
+   "background": {
+      "scripts": [ "blocker.js" ]
+   },
+   "permissions": [ "webRequest", "webRequestBlocking", "http://vk.com/*" ]
+}
